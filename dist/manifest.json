@@ -1,0 +1,29 @@
+{
+  "start_url": "https://smintgaming.github.io/toggle-blackout-pwa/index.html",
+  "scope": "/toggle-blackout-pwa/",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Toggle Blackout",
+  "display": "standalone",
+  "short_name": "Blackout",
+  "theme_color": "black",
+  "description": "You have the ability to toggle every light in the room. Try to reach the exit without getting caught.",
+  "orientation": "landscape",
+  "background_color": "black",
+  "icons": [
+    {
+      "src": "manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
