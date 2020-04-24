@@ -1,3 +1,14 @@
+if ('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/toggle-blackout-pwa/pwabuilder-sw.js').then(function(registration){
+    console.log('service worker registration succeeded:',registration);
+  },
+function(error){
+  console.log('service worker registration failed:',error);
+});
+}
+else{
+  console.log('service workers are not supported.');
+}
 var currentLevel = 0;
 var Blackout;
 var canMove;
