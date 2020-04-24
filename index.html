@@ -3,11 +3,17 @@
   type="module"
   src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
 ></script>
+        <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
         <meta name="theme-color" content="#000000"/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=990">
         <title>Toggle Blackout</title>
         <link rel="manifest" href="manifest.json">
+        <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Togglr Blackout">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <style>
 
     #b {
